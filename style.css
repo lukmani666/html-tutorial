@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    align-items: center;
+}
+
+img[alt="Code-text"] {
+    width: 30rem;
+    height: 20rem;
+}
+
+div {
+    padding-left: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}

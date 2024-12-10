@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input { 
+            outline: none;
+        }
+        input:focus {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <figure>
+        <img src="images/3d-code-text-wallpaper-preview.jpg" alt="Code">
+        <figcaption>This is a 3d code image text wallpaper</figcaption>
+    </figure>
+    <time datetime="2024-12-04">December 4 2024</time>
+
+    <p>This HTML5 new features is <mark>Important</mark> to use for code readability</p>
+
+    <form action="">
+        <input type="email" placeholder="Enter your email">
+        <input type="date">
+        <input type="range" min="0" max="70">
+        <button type="submit">Sign up</button>
+    </form>
+
+    <script>
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                console.log("Longitude: " + position.coords.longitude);
+                console.log("Latitude: " + position.coords.latitude);
+            });
+        }
+
+        localStorage.setItem("username", "Olamide");
+
+        const username = localStorage.getItem("username");
+        console.log("Username stored:",  username);
+
+        const worker = new Worker("script.js");
+        worker.postMessage("Start work");
+        worker.onmessage = function(event) {
+            console.log("Worker said start work:", event.data)
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        header > nav > ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: grey;
+            font-size: 20px;
+            font-weight: 100;
+        }
+
+        a:hover {
+            color: blue;
+            font-size: 25px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: green;
+        }
+
+        li:last-child {
+            background-color: red;
+        }
+
+        li:nth-child(2) {
+            background-color: brown;
+        }
+
+        h1::before {
+            content: "* ";
+            font-size: 50px;
+        }
+
+        h1::after {
+            content: " *";
+            font-size: 50px;
+        }
+
+        /* .foot-paragraph {
+            text-align: center;
+        } */
+
+        footer > p {
+            text-align: center;
+            padding: 2rem 0 2rem 0;
+            text-transform: uppercase;
+            /* letter-spacing: 10px; */
+            word-spacing: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: gray; font-size: 3rem; background-color: aqua;">Ola_Dev</h1>
+        <nav style="background-color: aquamarine;">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Corporate</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section>
+            <main>
+                <img src="images/3d-code-text-wallpaper-preview.jpg" alt="Code-text">
+                <div>
+                    <h2>Welcome to our website</h2>
+                    <p style="color: gray;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Incidunt velit voluptatum dicta corrupti? Repellat molestias 
+                        maxime ipsa voluptatum similique doloribus dolores exercitationem non veritatis magnam. 
+                        Delectus facere velit non necessitatibus.
+                    </p>
+                </div>
+            </main>
+            <img src="images/3d-code-text-wallpaper-preview.jpg" alt="Screen-shot">
+            
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas error, impedit, 
+                    hic qui harum dolores totam quisquam officia quos adipisci corporis animi
+                    voluptatibus reprehenderit neque possimus eaque modi! Quod, officiis?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum 
+                    blanditiis non, nulla nesciunt minus exercitationem? Necessitatibus 
+                    deleniti a ex voluptas quia quae nemo asperiores, doloremque pariatur 
+                    officia, cupiditate quaerat magni.
+                </p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic magnam 
+                    quia explicabo ut, eligendi fugit omnis molestiae architecto! 
+                    Delectus necessitatibus amet iusto culpa iste labore aliquam neque 
+                    ex fugit distinctio?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quas amet ad laborum. Eius tempora, commodi quo architecto vel, 
+                    quod, iure necessitatibus quia voluptatibus facilis ducimus 
+                    tenetur dicta quasi adipisci voluptatum!
+                </p>
+            </article>
+        </section>
+
+    </section>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3953.1467756690427!2d4.549800142575062!3d7.774256716153701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1733219722242!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <p class="foot-paragraph">
+            &copy;2024. All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
